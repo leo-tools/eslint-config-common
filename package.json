@@ -2,6 +2,10 @@
   "name": "@leo/eslint-config-common",
   "version": "1.0.0",
   "description": "common eslint config",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "leo",
     "code",

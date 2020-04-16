@@ -1,5 +1,5 @@
 {
-  "name": "@leo/eslint-config-common",
+  "name": "@leo-tools/eslint-config-common",
   "version": "0.0.1",
   "description": "common eslint config",
   "main": "index.js",

@@ -1,5 +1,7 @@
 # eslint-config-common
 
+![](https://img.shields.io/github/release/leo-tools/eslint-config-common.svg)
+
 Common ESLint shareable config
 
 ## Installation

@@ -10,7 +10,6 @@ module.exports = {
         'no-debugger': 'error',
         'generator-star-spacing': 'off',
         'no-mixed-operators': 0,
-        'vue/max-attributes-per-line': 0,
         'no-tabs': 0,
         quotes: [
             2,

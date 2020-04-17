@@ -5,7 +5,7 @@ module.exports = {
         require.resolve('eslint-config-standard')
     ],
     rules: {
-        'sort-imports': ['warning', {
+        'sort-imports': ['warn', {
             'ignoreCase': false,
             'ignoreDeclarationSort': false,
             'ignoreMemberSort': false,

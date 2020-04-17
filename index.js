@@ -1,10 +1,26 @@
-'use strict';
+'use strict'
 
 module.exports = {
     extends: [
         require.resolve('eslint-config-standard')
     ],
     rules: {
+        'sort-imports': ['error', {
+            'ignoreCase': false,
+            'ignoreDeclarationSort': false,
+            'ignoreMemberSort': false,
+            'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']
+        }],
+        'guard-for-in': 'error',
+        'no-return-await': 'error',
+        'implicit-arrow-linebreak': ['error', 'beside'],
+        'no-unneeded-ternary': 'error',
+        'arrow-body-style': ['error', 'as-needed'],
+        'arrow-parens': ['error', 'as-needed'],
+        'constructor-super': 'error',
+        'no-duplicate-imports': 'error',
+        'prefer-arrow-callback': 'error',
+        'jsx-quotes': ['error', 'prefer-double'],
         'template-curly-spacing': 'off',
         'no-console': 'off',
         'no-debugger': 'error',

@@ -5,6 +5,12 @@ module.exports = {
         require.resolve('eslint-config-standard')
     ],
     rules: {
+        'sort-imports': ['warning', {
+            'ignoreCase': false,
+            'ignoreDeclarationSort': false,
+            'ignoreMemberSort': false,
+            'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']
+        }],
         'guard-for-in': 'error',
         'no-return-await': 'error',
         'implicit-arrow-linebreak': ['error', 'beside'],

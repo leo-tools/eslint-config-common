@@ -11,6 +11,7 @@ module.exports = {
             'ignoreMemberSort': false,
             'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']
         }],
+        'space-before-function-paren': ['error', 'never'],
         'guard-for-in': 'error',
         'no-return-await': 'error',
         'no-unneeded-ternary': 'error',

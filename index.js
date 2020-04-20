@@ -13,7 +13,6 @@ module.exports = {
         }],
         'guard-for-in': 'error',
         'no-return-await': 'error',
-        'implicit-arrow-linebreak': ['error', 'beside'],
         'no-unneeded-ternary': 'error',
         'arrow-body-style': ['error', 'as-needed'],
         'arrow-parens': ['error', 'as-needed'],

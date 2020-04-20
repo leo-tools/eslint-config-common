@@ -1,6 +1,6 @@
 {
   "name": "@leo-tools/eslint-config-common",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "common eslint config",
   "main": "index.js",
   "publishConfig": {
